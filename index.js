@@ -13,3 +13,8 @@ var destructivelyUpdateObjectWithKeyAndValue = function(object,key,value){
     [key]:value
   })
 }
+
+var deleteFromObjectByKey = function(object,key){
+  blank = recipes;
+  delete blank[key];
+}
