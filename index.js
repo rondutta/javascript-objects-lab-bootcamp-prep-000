@@ -17,4 +17,5 @@ var destructivelyUpdateObjectWithKeyAndValue = function(object,key,value){
 var deleteFromObjectByKey = function(object,key){
   blank = recipes;
   delete blank[key];
+  return blank;
 }
